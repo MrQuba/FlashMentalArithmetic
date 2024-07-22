@@ -1,0 +1,5 @@
+clear
+rm *.o
+g++ -c *.cpp src/Input.cpp
+g++ main.o Input.o -o ma -lsfml-graphics -lsfml-window -lsfml-system
+./ma
